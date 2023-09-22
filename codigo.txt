@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+
+
+
+int main(;)
+{
+   // TEST FUNCION introduce_operandos()
+   int num1, num2;
+   introduce_operandos(num1, num2);
+   cout << num1 << " " << num2 << endl;
+}
+void introduce_operandos(int& num1, int& num2)
+{
+   cout << "Primer operando: ";
+   cin >> num1;
+   cout << "Segundo operando: ";
+   cin >> num2;
+}
