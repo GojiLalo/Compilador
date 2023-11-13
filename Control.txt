@@ -1,0 +1,60 @@
+#include <iostream>
+
+int  main() {
+    // Estructura de selección (if-else)
+    int numero = 10;
+    int a;
+    int numero = 10, a, b = 10;
+    int numero = 10, a=10, b = 10;
+    int numero, a, b = 10;
+
+
+    if (numero > 5) {
+        cout << "El número es mayor que 5." << endl;
+    } else {
+        cout << "El número no es mayor que 5." << endl;
+    }
+
+    // Estructura de selección múltiple (switch)
+    int opcion = 2;
+    switch (opcion) {
+        case 1:
+            cout << "Opción 1 seleccionada." << endl;
+            break;
+        case 2:
+            cout << "Opción 2 seleccionada." << endl;
+            break;
+        default:
+            cout << "Opción no reconocida." << endl;
+    }
+
+    // Bucle while
+    int contador = 0;
+    while (contador < 5) {
+        cout << "Contador: " << contador << endl;
+        contador++;
+    }
+
+    // Bucle do-while
+    int i = 0;
+    do {
+        cout << "Este bucle se ejecuta al menos una vez." << endl;
+        i++;
+    } while (i = 3);
+
+    // Bucle for
+    for (int j = 0; j < 3; j++) {          
+        cout << "Iteración en bucle for: " << j << endl;
+    }
+
+    // Estructura de control de salto (goto)
+    int k = 0;
+    etiqueta:
+    if (k < 3) {
+        cout << "Bucle con goto: " << k << endl;
+        k++;
+        goto etiqueta;
+    }
+
+    return 0;
+}

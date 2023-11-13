@@ -1,0 +1,24 @@
+#include <iostream>
+#include <string>
+int main() {
+    // Declarar dos cadenas
+    string palabra1 = "Hola, ";
+    string palabra2 = "mundo!";
+
+    // Concatenar las dos cadenas
+    string resultado = palabra1 + palabra2; //AAA
+
+    // Mostrar el resultado por pantalla 
+    cout << "La cadena concatenada es: " << resultado << endl;
+    cout << "La cadena concatenada es: " << resultado << cadena <<endl;
+    cout << "La cadena concatenada es: " << resultado << variable << endl;
+    cout << variable << "resultado" << endl;
+    cout << "La cadena concatenada es: " << resultado;
+    cout << "La cadena concatenada es: " << resultado << "cadena";
+    cout << "La cadena concatenada es: " << resultado << variable;
+    cout << variable << "resultado";
+
+
+
+    return 0;
+}

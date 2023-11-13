@@ -1,0 +1,55 @@
+//Caracteres
+    char palabra1 = "H", p2 = "o";
+    char c2 = "m", c2, c3="a";
+    char c2, c2, c3="a";
+
+    wchar_t car1 = "H";
+    wchar_t C2 = "m";
+
+//Enteros
+    int numero = 10;
+    int var0 = var1 + var2;
+    int numero = 10, a, b = 10;
+    int numero = 10, a=10, b = 10;
+    int numero, a, b = 10;
+
+    short numero = 10;
+    short a;
+    short numero = 10, a, b = 10;
+    short numero = 10, a=10, b = 10;
+    short numero, a, b = 10;
+
+    long numero = 10;
+    long a;
+    long numero = 10, a, b = 10;
+    long numero = 10, a=10, b = 10;
+    long numero, a, b = 10;
+    
+    long long numero = 10;
+    long long a;
+    long long numero = 10, a, b = 10;
+    long long numero = 10, a=10, b = 10;
+    long long numero, a, b = 10;
+
+//Numeros en coma flotante
+    float numero = 10.1;
+    float numero = 10, a, b = 10.10;
+    float numero = 1.0, a=0.10, b = 10;
+    float numero, a, b = 10.10000;
+
+    double numero = 10.1;
+    double numero = 10, a, b = 10.10;
+    double numero = 1.0, a=0.10, b = 10;
+    double numero, a, b = 10.10000;
+
+    long double numero = 10.1;
+    long double numero = 10, a, b = 10.10;
+    long double numero = 1.0, a=0.10, b = 10;
+    long double numero, a, b = 10.10000;
+
+//Booleanas
+    bool numero = true;
+    bool a;
+    bool numero = false, a, b = true;
+    bool numero = true, a=false, b = true;
+    bool numero, a, b = true;

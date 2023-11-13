@@ -1,0 +1,25 @@
+void saludar() {
+    cout << "¡Hola, mundo!" << endl;
+}
+
+int saludar(int a) {
+    cout << "¡Hola, mundo!" << endl;
+}
+
+string saludar(string a,int b, float c) {
+    cout << "¡Hola, mundo!" << endl;
+}
+
+float saludar(float a,string b) {
+    cout << "¡Hola, mundo!" << endl;
+}
+
+int main() {
+    // Llamada a la función
+    saludar();
+    saludar(a);
+    saludar(a,b,c);
+    saludar(a,b);
+
+    return 0;
+}
